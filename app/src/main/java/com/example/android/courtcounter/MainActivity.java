@@ -26,15 +26,15 @@ public class MainActivity extends AppCompatActivity {
 
     public void addThreeTeamA(View v){
         TeamAScore += 3;
-        displayForTeamA(TeamAScore);
+        displayForTeamA();
     }
     public void addTwoTeamA(View v){
         TeamAScore += 2;
-        displayForTeamA(TeamAScore);
+        displayForTeamA();
     }
     public void addOneTeamA(View v){
         TeamAScore += 1;
-        displayForTeamA(TeamAScore);
+        displayForTeamA();
     }
 
 }
